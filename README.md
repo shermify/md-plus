@@ -33,6 +33,7 @@ Given the time constraints this is obviously a functional prototype and not prod
 >**TODO:**
 
 > - Write unit and integration tests for api routes and react components.
+> - Add loaders to avoid flashing stale data when changing patients.
 > - Refactor api routes.
 > - Refactor some of the react containers and extract presentational components.
 > - Move modal state to redux
