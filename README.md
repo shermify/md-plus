@@ -1,10 +1,16 @@
 Welcome to MD Plus
 ===================
 
+The live demo can be viewed at http://md-plus.s3-website-us-east-1.amazonaws.com
 
-The live demo can be viewed at http://...
-patient credentials:  email: password:
-doctor credentials: email: password:
+doctor credentials:  
+email: brett96@hotmail.com  
+password: test  
+
+patient credentials:  
+email: marley99@hotmail.com  
+password: test
+
 
 Run the project locally
 ```
