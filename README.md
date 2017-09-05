@@ -19,6 +19,8 @@ $ cd md-plus
 $ npm install
 $ npm start
 ```
+Navigate to http://localhost:8080 in your browser.
+
 MongoDB is required for data storage.  When the app is started, the database will automatically be populated with random data.  Watch the console output for credentials.
 
 Description
@@ -39,4 +41,4 @@ Given the time constraints this is obviously a functional prototype and not prod
 > - Move modal state to redux
 > - Add a separate view for patient files
 > - etc...
-> 
+>
