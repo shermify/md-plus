@@ -4,11 +4,11 @@ Welcome to MD Plus
 The live demo can be viewed at http://md-plus.s3-website-us-east-1.amazonaws.com
 
 doctor credentials:  
-email: rodolfo3@hotmail.com  
+email: friedrich.green@hotmail.com  
 password: test  
 
 patient credentials:  
-email: joanie30@yahoo.com  
+email: thora.murray@yahoo.com  
 password: test
 
 
