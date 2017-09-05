@@ -88,11 +88,11 @@ export default ((n) => {
 
   Promise.all(doctorArray).then((doctors) => {
     doctors.forEach(doctor =>
-      logger.log('debug', `Created a new DOCTOR: Email: ${doctor.email}, Password: test`));
+      logger.log('info', `Created a new DOCTOR: Email: ${doctor.email}, Password: test`));
     for (let i = 0; i < n; i += 1) {
       User.create(getUser('Patient'))
       .then((newUser) => {
-        logger.log('debug', `Created a new PATIENT: Email: ${newUser.email}, Password: test`);
+        logger.log('info', `Created a new PATIENT: Email: ${newUser.email}, Password: test`);
         createAppts(newUser._id, doctors);
         createFiles(newUser._id);
       });
