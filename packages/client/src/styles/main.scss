@@ -1,5 +1,5 @@
 //@import '~bootstrap/scss/bootstrap';
-$background-image: '../images/bg.jpg';
+$background-image: '../images/bg-1.jpg';
 
 .dialog {
   width: 400px;
@@ -29,7 +29,7 @@ $background-image: '../images/bg.jpg';
 }
 
 .file-list {
-  height: 200px;
+  max-height: 200px;
   overflow: auto;
 }
 
