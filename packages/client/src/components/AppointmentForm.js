@@ -6,6 +6,11 @@ import 'react-datetime/css/react-datetime.css';
 import DatePicker from './DatePicker';
 import DropDownList from './DropDownList';
 
+function getDefaultDate() {
+  const dat = new Date(Date.now());
+  dat.setDate(dat.getDate() + 30);
+  return dat;
+}
 
 const AppointmentForm = (props) => {
   const { handleSubmit } = props;
@@ -60,7 +65,7 @@ AppointmentForm.defaultProps = {
 export default reduxForm({
   form: 'appointmentForm',
   initialValues: {
-    scheduledOn: Date.now(),
+    scheduledOn: getDefaultDate(),
     status: 'Pending',
   },
 })(AppointmentForm);
