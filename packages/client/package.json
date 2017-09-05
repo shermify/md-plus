@@ -1,0 +1,33 @@
+{
+  "name": "md-plus-client",
+  "version": "1.1.2",
+  "description": "A basic template for react projects.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "lint": "./node_modules/.bin/eslint src/**/*.js"
+  },
+  "author": "Daniel Sherman",
+  "license": "MIT",
+  "dependencies": {
+    "history": "^4.7.2",
+    "moment": "^2.18.1",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-bootstrap": "^0.31.2",
+    "react-bootstrap-modal": "^3.0.1",
+    "react-datepicker": "^0.53.0",
+    "react-datetime": "^2.10.1",
+    "react-dom": "^15.6.1",
+    "react-flip-move": "^2.9.15",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^5.0.0-alpha.6",
+    "redux": "^3.7.2",
+    "redux-file-upload": "0.0.18",
+    "redux-form": "^7.0.3",
+    "redux-logger": "^3.0.6",
+    "redux-rest-api": "^1.0.1",
+    "redux-thunk": "^2.2.0"
+  }
+}

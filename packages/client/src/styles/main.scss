@@ -1,0 +1,93 @@
+//@import '~bootstrap/scss/bootstrap';
+$background-image: '../images/bg.jpg';
+
+.dialog {
+  width: 400px;
+}
+
+.patient-list {
+  font-size: large;
+  max-width: 700px;
+  margin: auto;
+
+  a {
+    border-right: 0;
+    border-left: 0;
+  }
+}
+
+.cover {
+  background: url($background-image);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+}
+
+.file-list {
+  height: 200px;
+  overflow: auto;
+}
+
+.login-form {
+  border: thin solid #ccc;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 50px;
+  margin: auto;
+  top: 15%;
+  position: relative;
+  width: 400px;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+  color: #fff;
+  cursor: default;
+  background-color: #337ab7;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+}
+
+.file-upload {
+  .glyphicon,
+  form {
+    font-size: 28px;
+    height: 30px;
+    width: 30px;
+    overflow: hidden;
+    float: right;
+    z-index: 9;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+}
+
+.mt {
+  margin-top: 20px;
+}
+
+.btn-success {
+  background-color: #fff;
+  color: #5cb85c;
+}
+
+.btn-danger {
+  background-color: #fff;
+  color: #d9534f;
+}
+
+select {
+  padding: 6px;
+  margin: 0;
+  background: #f8f8f8;
+
+}
