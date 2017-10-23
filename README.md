@@ -1,15 +1,7 @@
 Welcome to MD Plus
 ===================
 
-The live demo can be viewed at http://md-plus.s3-website-us-east-1.amazonaws.com
-
-doctor credentials:  
-email: friedrich.green@hotmail.com  
-password: test  
-
-patient credentials:  
-email: thora.murray@yahoo.com  
-password: test
+MD Plus is a doctor-patient scheduling app that I created for a 2-day code challenge.
 
 
 Run the project locally
