@@ -1,7 +1,7 @@
 Welcome to MD Plus
 ===================
 
-MD Plus is a doctor-patient scheduling app that I created for a 2-day code challenge.  The app employs react and redux on the front end and express for the API.
+MD Plus is a doctor-patient scheduling app that I created for a code challenge.  The app employs react and redux on the front end and express for the API.
 
 
 Run the project locally
